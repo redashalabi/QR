@@ -33,8 +33,11 @@
             text-decoration: none; /* إزالة الخط السفلي */
             color: rgb(42, 139, 235); /* لون النص */
             text-align: center; /* محاذاة النص في المنتصف */
-             transform: translateY(-10px) scale(1.1);  /* تحريك الأيقونة للأعلى وتكبيرها */
-            color: #007bff;           /* تغيير اللون عند المرور فوق الأيقونة */
+              transition: transform 0.3s ease;
+        } 
+        
+        .social-media a:hover {
+            transform: scale(1.2);
         }
 
         .social-media img {
